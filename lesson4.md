@@ -1,4 +1,4 @@
-## Lesson 4 Homework: Command Line Chipotle
+son 4 Homework: Command Line Chipotle
 
 #### Submitting Your Homework
 
@@ -30,10 +30,13 @@ wc -l chipotle.tsv
 There are 4623 lines
 
 4. Which burrito is more popular, steak or chicken?
-grep 'Steak Burrito' chipotle.tsv | wc -l
-grep 'Chicken Burrito' chipotle.tsv | wc -l
 
-Chicken (553) is more popular than Steak (368)
+grep 'Steak Burrito' chipotle.tsv | cut -f2 | awk '{ sum+=$1} END {print sum}'
+386
+grep 'Chicken Burrito' chipotle.tsv | cut -f2 | awk '{ sum+=$1} END {print sum}'
+591
+
+Chicken (591) is more popular than Steak (386)
 
 5. Do chicken burritos more often have black beans or pinto beans?
 grep 'Chicken Burrito' chipotle.tsv | grep 'Black Beans'|wc -l
