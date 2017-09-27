@@ -1,4 +1,4 @@
-son 4 Homework: Command Line Chipotle
+lesson 4 Homework: Command Line Chipotle
 
 #### Submitting Your Homework
 
@@ -57,4 +57,3 @@ grep -r -i 'dictionary' . | wc -l
 8. **Optional:** Use the the command line to discover something "interesting" about the Chipotle data. Try using the commands from the "advanced" section!
 cut -f1,2 chipotle.tsv | uniq | sort -nk 2 |tail -1
 The order with the largest numbers of items is order number 1443
-
