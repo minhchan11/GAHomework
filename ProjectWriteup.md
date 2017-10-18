@@ -3,8 +3,7 @@
 
 ### Dataset:
 
-Using the Zillow Dataset from [Kaggle](https://www.kaggle.com/c/zillow-prize-1). However, as the data set is too large, may attempt to randomize for a smaller sample. 
-
+Using the Vermont/New Hampshire real estate firm dataset from [Kaggle](https://www.kaggle.com/samdeeplearning/vt-nh-real-estate).
 
 ### Procedure
 Attempt to answer the followings questions
